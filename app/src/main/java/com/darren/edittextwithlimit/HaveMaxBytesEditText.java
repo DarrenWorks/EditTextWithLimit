@@ -6,13 +6,13 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.EditText;
+import android.support.v7.widget.AppCompatEditText;
 
 /**
  * Created by Darren on 2017/6/30.
  */
 
-public class HaveMaxBytesEditText extends EditText implements TextWatcher {
+public class HaveMaxBytesEditText extends AppCompatEditText implements TextWatcher {
     private static final String TAG = "HaveMaxBytesEditText";
     int mMaxBytes;
 
